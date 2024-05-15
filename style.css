@@ -1,0 +1,169 @@
+.kranky-regular {
+  font-family: "Kranky", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*Body*/
+body {
+  font-family: "Kranky", serif;
+  font-size: 14px;
+  line-height: 1.6;
+  background-color: #fdfce8;
+}
+
+/*Header*/
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: black;
+}
+
+.navbar-nav .nav-item a.nav-link {
+  color: #fdfce8;
+}
+.nav-item a.nav-link:hover {
+  color: #72AEC8;
+}
+
+/*Product Card*/
+.product-description {
+  font-size: 19px;
+  color: #797979;
+}
+
+/*More Products Section*/
+.product-store .product-card .cart-concern {
+    bottom: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease-out;
+    opacity: 0;
+}
+.product-store .product-card:hover .cart-concern {
+    bottom: 90px;
+    opacity: 1;
+}
+.cart-footer{
+  margin-top: 300px;
+}
+#working{
+  font-size: 75px;
+  color:red;
+  margin-top: 50px;
+}
+.header-cart{
+  position: sticky;
+}
+a {
+  color: black;
+  text-decoration: none;
+  transition: 0.3s color ease-out;
+}
+a.light {
+  color: #f8f9fa;
+}
+a:hover {
+  text-decoration: none;
+  color: #72AEC8;
+}
+.banner{
+  margin-top: 300px;
+}
+
+#mobile-products{
+  margin-top: 10px;
+  background-color: #fdfce8;
+}
+
+.copyright-footer{
+  padding-bottom: 10px;
+  align-items: center;
+}
+#footer{
+  color:white;
+  padding-top: 20px;
+  background-color: black;
+}
+
+.a-footer{
+  color: #fdfce8;
+}
+#shop-products{
+  background-color: #fdfce8;
+}
+.products-button-cart{
+  width: 25px;
+  height: 25px;
+}
+.products-button{
+  background-color: #000;
+  color:#fdfce8;
+  font-size: 17px;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+.products-button:hover{
+  color: #000000;
+  background-color: #72AEC8;
+}
+#samsung-home{
+  padding-bottom: 750px;
+}
+.buy-now-button{
+  background-color: #72AEC8;
+  color: white;
+  padding: 13px 45px;
+  font-size: 17px;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+.buy-now-button:hover{
+  background-color: black;
+  color: white;
+}
+#google-home{
+  padding-bottom: 670px;
+}
+.item-details{
+  margin-top: none;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.product-store .product-card {
+  margin-bottom: 30px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-store .product-card .cart-concern {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.product-store .product-card .cart-button {
+  color: #fff;
+  border-radius: 20px;
+}
+
+.product-store .product-card .card-title a {
+  color: #333;
+  text-decoration: none;
+}
+
+.price{
+  color:#72AEC8;
+}
